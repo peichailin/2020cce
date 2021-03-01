@@ -1,8 +1,8 @@
 # 2020cce
 
-#第01週的實習課程式
+# 第01週的實習課程式
 
-##第一題 進階題 : 分式化簡
+## 第一題 進階題 : 分式化簡
 ```c
 #include <stdio.h>
 int main()
@@ -22,7 +22,7 @@ int main()
 }
 ```
 
-##第二題 進階題 : 讀入整數反序列印
+## 第二題 進階題 : 讀入整數反序列印
 ```c
 #include <stdio.h>
 int a[10]={};
@@ -49,7 +49,7 @@ int main()
 }
 ```
 
-##第三題 進階題 : A的B次方函數
+## 第三題 進階題 : A的B次方函數
 ```c
 #include <stdio.h>
 int MYPOWER(int a,int b)
@@ -70,7 +70,7 @@ int main(void)
 }
 ```
 
-##第四題 進階題 : 漸增數列相加
+## 第四題 進階題 : 漸增數列相加
 ```c
 #include <stdio.h>
 int main()
@@ -86,7 +86,7 @@ int main()
 }
 ```
 
-##第五題 基礎題：找零錢 
+## 第五題 基礎題：找零錢 
 ```c
 #include <stdio.h>
 int main()
@@ -97,7 +97,7 @@ int main()
 }
 ```
 
-##第六題 基礎題：因數個數 
+## 第六題 基礎題：因數個數 
 ```c
 #include <stdio.h>
 int main()
@@ -116,7 +116,7 @@ int main()
 }
 ```
 
-##第七題 基礎題：找倍數 
+## 第七題 基礎題：找倍數 
 ```c
 #include <stdio.h>
 int a[10]={};
@@ -138,7 +138,7 @@ int main()
 }
 ```
 
-##第八題 基礎題：整數轉換為等級 
+## 第八題 基礎題：整數轉換為等級 
 ```c
 #include <stdio.h>
 int main()
