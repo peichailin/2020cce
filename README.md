@@ -210,7 +210,7 @@ int main()
 
 ```
 
-##指標3
+## 指標3
 ```c
 
 #include <stdio.h>
