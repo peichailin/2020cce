@@ -342,3 +342,195 @@ int main()
     }
 
 ```
+## 實3-1
+
+```c
+#include <stdio.h>
+int main()
+{
+	char a[100];
+	scanf("%s", &a);
+	for(int i=0; a[i]!=0;i++)
+	{
+		if(a[i]>64 && a[i]<91)
+		{
+
+			printf("%c",a[i]+32);
+		}
+		else if(a[i]>96 && a[i]<123)
+		{
+			printf("%c",a[i]-32);
+		}
+		else
+		{
+			printf("%c",a[i]);
+		}
+	}
+	printf("\n");
+}
+
+```
+
+## 實3-2
+
+```c
+#include <stdio.h>
+int main()
+{
+	int n , ans=0;
+	scanf("%d",&n);
+	for(int i=2;i<=n;i++)
+	{
+		ans=ans+(i-1)*i;
+	}
+	printf("%d\n",ans);
+}
+
+```
+## 實3-3
+```c
+#include <stdio.h>
+int a[10]={};
+int main()
+{
+	int n ,ans=0;
+	scanf("%d",&n);
+	for(int i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+		ans=a[i]*a[i];
+		printf("%d,",ans);
+	}
+	printf("\n");
+
+}
+
+```
+
+## 實3-4
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int a=n/1000;
+	int b=n%1000/100;
+	int c=n%1000%100/10;
+	int d=n%1000%100%10;
+	printf("%d\n",a*8+b*4+c*2+d*1);
+
+}
+
+```
+
+## 實3-5
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	printf("%d %d\n",n/7,n%7);
+}
+
+```
+
+## 實3-6
+```c
+#include <stdio.h>
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int x=n-2000;
+	if(x%500!=0)
+	{
+		printf("%d\n",(100)+(x/500)*5+5);
+	}
+	else
+	{
+		printf("%d\n",(100)+(x/500)*5);
+	}
+}
+
+```
+
+## 實3-7
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b;
+	scanf("%d%d",&a,&b);
+	if(a<b)
+	{
+		for(int i=a;i<=b;i++)
+		{
+			if(i%5==0)
+			{
+				printf("%d\n",i);
+			}
+		}
+	}
+	else if(a>b)
+	{
+		for(int k=b;k<=a;k++)
+		{
+			if(k%5==0)
+			{
+				printf("%d\n",k);
+			}
+		}
+	}
+}
+
+
+```
+
+## 實3-8
+```c
+#include <stdio.h>
+int main()
+{
+	int a,b,c,temp,max,min;
+	scanf("%d%d%d",&a,&b,&c);
+	for(int i=1;i<=3;i++)
+	{
+		if(c>a && c>b)
+		{
+			max=c;
+
+		}
+		else if(b>a &&b>c)
+		{
+			max=b;
+
+		}
+		else if(a>b &&a>c)
+		{
+		   max=a;
+		}
+	}
+
+		if(a<b && a<c)
+		{
+			min=a;
+		}
+		else if(b<a && b<c)
+		{
+			min=b;
+		}
+		else if(c<a && c<b)
+		{
+			min=c;
+		}
+
+	printf("%d\n",max-min);
+
+
+
+}
+
+
+```
