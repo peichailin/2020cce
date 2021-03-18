@@ -650,7 +650,7 @@ int main()
 
 
 ```
-##實4-1
+## 實4-1
 ```c
 #include <stdio.h>
 int main()
@@ -670,7 +670,7 @@ int main()
 
 
 ```
-##實4-2
+## 實4-2
 ```c
 #include <stdio.h>
 int main()
