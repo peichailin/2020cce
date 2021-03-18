@@ -695,3 +695,55 @@ int main()
 }
 
 ```
+## 實4-3
+```c
+#include <stdio.h>
+int  max_digit(int n)
+{
+	int ans=0,ans2=0,a=0;
+	for(int i=1;n!=0;i++)
+	{
+		ans2=n%10;
+		if(ans2>a)
+		{
+			a=ans2;
+		}
+		n=n/10;
+
+	}
+	return a;
+}
+
+int main(void){
+  int n ;
+  scanf("%d", &n);
+  printf("[%d]", max_digit(n));
+  return 0;
+}
+
+```
+## 實4-4
+```c
+#include <stdio.h>
+void many(char c,int n)
+{
+	for(int k=1;k<=n;k++)
+	{
+		printf("%c",c);
+	}
+}
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	for(int i=1;i<=n;i++)
+	{
+		int star=i*2-1;
+		int space=n-i;
+		many(' ',space);
+		many('*',star);
+		printf("\n");
+	}
+}
+
+```
