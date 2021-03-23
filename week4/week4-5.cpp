@@ -1,5 +1,5 @@
 #include <stdio.h>
-struct DATA///¸ê®Æµ²ºc«Å§i
+struct DATA///è³‡æ–™çµæ§‹å®£å‘Š
 {
     float x,y,z;
 } a,b;
@@ -8,7 +8,7 @@ struct DATA c,d;
 int main()
 {
     struct DATA e;
-    struct DATA f={1,2,3};///«Å§iªº¦P®É,¥i¥Hªì©l­È
+    struct DATA f={1,2,3};///å®£å‘Šçš„åŒæ™‚,å¯ä»¥åˆå§‹å€¼
 
     printf("%f %f %f\n",a.x,a.y,a.z);
     printf("%f %f %f\n",b.x,b.y,b.z);
