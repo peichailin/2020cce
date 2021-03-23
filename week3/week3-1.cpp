@@ -1,4 +1,4 @@
-///°}¦C v.s «ü¼Ğ
+///Â°}Â¦C v.s Â«Ã¼Â¼Ã
 #include <stdio.h>
 int a[5]={0,10,20,30,40};
 int printfAll()
