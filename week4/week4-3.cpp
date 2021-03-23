@@ -1,15 +1,15 @@
 #include <stdio.h>
-struct DATA///¸ê®Æµ²ºc«Å§i
+struct DATA///è³‡æ–™çµæ§‹å®£å‘Š
 {
     float x,y,z;
 } point1;
 struct DATA points[5];
-///point1¬OÅÜ¼Æ,ªø±o¹³DATA
-///DATA¸Ì­±¦³x,y,z
+///point1æ˜¯è®Šæ•¸,é•·å¾—åƒDATA
+///DATAè£¡é¢æœ‰x,y,z
 int main()
 {
     ///int b;
-    ///int a[5];¦³¤­­Ó
+    ///int a[5];æœ‰äº”å€‹
     for(int i=0;i<5;i++)
     {
         points[i].x = i*10;
