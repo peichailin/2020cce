@@ -747,7 +747,7 @@ int main()
 }
 
 ```
-#第五週
+# 第五週
 
 ## 5-1
 
@@ -771,7 +771,7 @@ int main()
 
 ```
 
-##5-2
+## 5-2
 ```c
 #include <stdio.h>
 int main()
