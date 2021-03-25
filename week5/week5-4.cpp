@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    ///�Ѭƻ�O "�ܦh"�r��
+    ///¸Ñ¬Æ»ò¬O "«Ü¦h"¦r¦ê
     char line [5][10]={"decline","proper","majority","bullet","shop"};
     char *p;
     for(int i=0;i<5;i++)
