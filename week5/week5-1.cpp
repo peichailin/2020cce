@@ -4,7 +4,7 @@ int main()
 {
     char *p=line;
     ///scanf("%s,line");
-    for(int i=0;line[i]!=0;i++)///line[i]!=0 的地方 (  0  其實就是 '\0' )
+    for(int i=0;line[i]!=0;i++)///line[i]!=0 穠繙礎a瞻癡 (  0  穡瓣繒礙織N竅O '\0' )
     {
         p = &line[i];
         char c = line[i];
