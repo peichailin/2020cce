@@ -13,15 +13,15 @@ int main()
 			char c=line[k];
 			if(c>='A' && c<='Z')
 			{
-				printf("¤j");
+				printf("Â¤j");
 			}
 			else if(c>='a' && c<='z')
 			{
-				printf("¤p");
+				printf("Â¤p");
 			}
 			else
 			{
-				printf("¥L");
+				printf("Â¥L");
 			}
 		}
 
