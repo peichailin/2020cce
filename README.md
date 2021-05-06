@@ -1134,7 +1134,7 @@ int main()
 	}
 }
 ```
-## 11
+# 11
 ```c
 #include <stdio.h>
 unsigned char c;
@@ -1147,7 +1147,7 @@ int main()
     printf("%c",d);
 }
 ```
-# 11-2
+##11-2
 ```c
 #include <stdio.h>
 typedef struct data
