@@ -1147,7 +1147,7 @@ int main()
     printf("%c",d);
 }
 ```
-##11-2
+# 11-2
 ```c
 #include <stdio.h>
 typedef struct data
