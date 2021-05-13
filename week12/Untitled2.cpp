@@ -6,7 +6,7 @@ int main()
 	{
 		int ans[256]={};
 		char ascii[256];
-		for(int i=0;i<256;i++) ascii[i]=i;
+		for(int i=0;i<256;i++) ascii[i]=i;//ascii 是字母(左邊那一排)
 
 		for(int i=0;line[i]!=0;i++)
 		{
