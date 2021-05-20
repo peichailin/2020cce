@@ -1,16 +1,16 @@
 
-//·sªº,¼Æ¦r¥[¦r¦êµ¥©ó¦r¦ê
+//æ–°çš„,æ•¸å­—åŠ å­—ä¸²ç­‰æ–¼å­—ä¸²
 void setup()
 {
     size(1024,400);
 }
 void draw()
 {
-    background(#A89AFA);//¦â½X
+    background(#A89AFA);//è‰²ç¢¼
     int s = second();  // Values from 0 - 59
     int m = minute();  // Values from 0 - 59
     int h = hour();    // Values from 0 - 23
     textSize(80);
     text( h + ":" + m + ":" + s,100,200);
-    //   ¼Æ¦r¦r¦ê ¼Æ¦r ¦r¦ê  ¼Æ¦r//­^¤å¬O¼Æ¦r,«_¸¹¬O¦r¦ê,+¬Oµ²¦X
+    //   æ•¸å­—å­—ä¸² æ•¸å­— å­—ä¸²  æ•¸å­—//è‹±æ–‡æ˜¯æ•¸å­—,å†’è™Ÿæ˜¯å­—ä¸²,+æ˜¯çµåˆ
 }
