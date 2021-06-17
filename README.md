@@ -1380,3 +1380,29 @@ int main()
 	}
 }	
 ```
+## week17
+```c
+String A="mother";
+String line="";
+void setup()
+{
+    size(400,300);
+    textSize(40);
+}
+void draw()
+{
+    background(0);
+    text(A,100,100);
+    text(line+"|",100,150);
+}
+void keyPressed()
+{
+    int len=line.length();//原字的長度
+    if(key>='a' && key<='z') line=line+key;//小寫鍵
+    if(key>='A' && key<='Z') line=line+key;//大寫鍵
+    if(key==ENTER) { }//比對字是否正確
+    if(key==BACKSPACE && len>0) line=line.substring(0,len-1);//倒退刪掉
+
+}//BACKSPACE,判斷時,要把Line變短
+//如果len=0,在按倒退鍵就會當掉
+```
