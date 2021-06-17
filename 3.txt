@@ -1,0 +1,21 @@
+void setup()
+{
+    size(400,200);
+    textSize(40);
+}
+float x=100,y=100,vx=0,vy=0;
+void draw()
+{
+    background(#2748BF);
+    rect(x,y,50,50);//畫方塊
+    x+=vx;//每秒60次,等速,順
+}//Q:需求,左鍵,右鍵
+void keyPressed()
+{
+    if(keyCode==LEFT) vx=-1;//keyCode特殊鍵,上下左右ALT 等等//key普通數字鍵
+    if(keyCode==RIGHT) vx=+1;
+}//座標方式讓方塊移動
+void keyReleased()//當按鍵放開
+{
+    vx=0;
+}
